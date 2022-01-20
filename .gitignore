@@ -60,6 +60,9 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+# Database stuff
+media/photos/
+
 # Sphinx documentation
 docs/_build/
 

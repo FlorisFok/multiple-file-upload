@@ -11,8 +11,8 @@ function make_link(res) {
 function add_row(t, data) {
     // Add a row to the Gallery
     t.row.add([
-        make_link(data.result),
-        get_img(data.result.url)
+        get_img(data.result.url),
+        make_link(data.result)
     ]).draw( false );
 }
 

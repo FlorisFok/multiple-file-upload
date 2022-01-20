@@ -28,13 +28,13 @@
   <table id="gallery" class="table table-bordered">
     <thead>
       <tr>
-        <th>Photo</th> <th>URL</th> <th>image</th>
+        <th>image</th> <th>URL</th>
       </tr>
     </thead>
     <tbody>
       {% for photo in photos %}
         <tr>
-          <td><a href="{{ photo.file.url }}">{{ photo.file.name }}</a></td><td></td><td></td>
+          <td><img src="{{ photo.file.url }}" height="50" width="50"/></td><td><a href="{{ photo.file.url }}">{{ photo.file.name }}</a></td>
         </tr>
       {% endfor %}
     </tbody>
