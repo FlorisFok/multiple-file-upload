@@ -3,6 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
+    os.environ.setdefault("DEFAULT_AUTO_FIELD", 'django.db.models.AutoField')
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
     try:
         from django.core.management import execute_from_command_line

@@ -1,3 +1,6 @@
+
+
+
 $(function () {
 
   $(".js-upload-photos").click(function () {
